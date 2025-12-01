@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
        <input onChange={handleChange}></input> 
-      {output!=""?<p>Hello, {output}!</p>:output=output}
+      {output!=""?<p>'Hello, {output}!'</p>:output=output}
     </div>
   )
 }
