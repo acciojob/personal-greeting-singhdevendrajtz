@@ -9,8 +9,9 @@ const App = () => {
     };
   return (
     <div>
-       <input onChange={handleChange}></input> 
-      {output!=""?<p>'Hello, {output}!'</p>:output=output}
+    <p>Enter your name:</p>
+       <input onChange={handleChange} value={output}></input> 
+      {output!=""?<p>Hello, {output}!</p>:null}
     </div>
   )
 }
